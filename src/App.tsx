@@ -1,24 +1,24 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React, { useEffect } from "react";
+import "./css/App.css";
+import data from "./data/matches.json";
+import { MainPage } from "./Components/MainPage";
 
 function App() {
+  useEffect(() => {
+    // (async () => {
+    //   const res = await (
+    //     await fetch("https://www.fotmob.com/api/matches?date=20201020")
+    //   ).json();
+    //   console.log(res);
+    // })();
+    console.log(data.schedule[20221101]);
+  });
+
+  const first = data.schedule[20221101][0];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          zz
-        </a>
-      </header>
+      <MainPage></MainPage>
     </div>
   );
 }

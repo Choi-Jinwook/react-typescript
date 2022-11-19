@@ -1,0 +1,25 @@
+.header {
+  font-weight: bold;
+}
+
+.mainBoard {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.mainBoardNumber {
+  width: 100px;
+}
+
+.mainBoardTitle {
+  width: 480px;
+}
+
+.mainBoardComment {
+  width: 100px;
+}
+
+#body {
+  font-size: 25px;
+}
