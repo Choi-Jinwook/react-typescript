@@ -12,13 +12,29 @@ export const MainPage = () => {
         <div className="temp-box">무엇을 넣을지 고민해보세요</div>
         <Login></Login>
         <div className="temp-box box-four">
-          <img src={images.homeImg} className="controlBtn"></img>
+          <img
+            src={images.homeImg}
+            alt="이미지 로딩에 실패하였습니다."
+            className="controlBtn"
+          ></img>
           <div className="gap-box"></div>
-          <img src={images.profileImg} className="controlBtn"></img>
+          <img
+            src={images.profileImg}
+            alt="이미지 로딩에 실패하였습니다."
+            className="controlBtn"
+          ></img>
           <div className="gap-box"></div>
-          <img src={images.soccerImg} className="controlBtn"></img>
+          <img
+            src={images.soccerImg}
+            alt="이미지 로딩에 실패하였습니다."
+            className="controlBtn"
+          ></img>
           <div className="gap-box"></div>
-          <img src={images.esportsImg} className="controlBtn"></img>
+          <img
+            src={images.esportsImg}
+            alt="이미지 로딩에 실패하였습니다."
+            className="controlBtn"
+          ></img>
           <div className="gap-box"></div>
           <div className="blank"></div>
         </div>

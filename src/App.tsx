@@ -14,8 +14,6 @@ function App() {
     console.log(data.schedule[20221101]);
   });
 
-  const first = data.schedule[20221101][0];
-
   return (
     <div className="App">
       <MainPage></MainPage>
