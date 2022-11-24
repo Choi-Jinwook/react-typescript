@@ -1,9 +1,9 @@
 import images from "../images/index";
-import { MainBoard } from "./MainBoard";
-import { MainNews } from "./MainNews";
 import { Login } from "./Login";
+import { ProfileNews } from "./ProfileNews";
+import { ProfileScreen } from "./ProfileScreen";
 
-export const MainPage = () => {
+export const ProfilePage = () => {
   return (
     <>
       <div className="gap-box"></div>
@@ -38,8 +38,8 @@ export const MainPage = () => {
           <div className="gap-box"></div>
           <div className="blank"></div>
         </div>
-        <MainBoard></MainBoard>
-        <MainNews></MainNews>
+        <ProfileScreen></ProfileScreen>
+        <ProfileNews></ProfileNews>
       </div>
     </>
   );
