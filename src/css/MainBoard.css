@@ -9,11 +9,15 @@
 }
 
 .mainBoardNumber {
-  width: 100px;
+  width: 120px;
 }
 
 .mainBoardTitle {
-  width: 480px;
+  width: 380px;
+}
+
+.mainBoardUserNickname {
+  width: 100px;
 }
 
 .mainBoardComment {
