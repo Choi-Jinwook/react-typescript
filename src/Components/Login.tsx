@@ -4,8 +4,8 @@ export const Login = () => {
   return (
     <>
       <div className="temp-box">
-        <div>Login</div>
-        <div className="login">이 화면은 고정입니다</div>
+        <input type="textarea" placeholder="ID"></input>
+        <input type="textarea" placeholder="Password"></input>
       </div>
     </>
   );

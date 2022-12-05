@@ -27,3 +27,15 @@
 #body {
   font-size: 25px;
 }
+
+.makePostBtn {
+  background-color: rgb(252, 252, 252);
+  position: relative;
+  top: 63%;
+  left: 40%;
+  color: black;
+  border-color: gray;
+  border-radius: 6px;
+  min-width: 60px;
+  min-height: 30px;
+}

@@ -18,6 +18,14 @@ export const MainBoard = () => {
           <MakeBoard></MakeBoard>
         </tbody>
       </table>
+      <button
+        className="makePostBtn"
+        onClick={() => {
+          alert("z");
+        }}
+      >
+        글 작성
+      </button>
     </div>
   );
 };
