@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/MainBoard.css";
 import { MakeBoard } from "./Board/MakeBoard";
 
@@ -18,14 +19,9 @@ export const MainBoard = () => {
           <MakeBoard></MakeBoard>
         </tbody>
       </table>
-      <button
-        className="makePostBtn"
-        onClick={() => {
-          alert("z");
-        }}
-      >
-        글 작성
-      </button>
+      <Link to="makepost">
+        <button className="makePostBtn">글 작성</button>
+      </Link>
     </div>
   );
 };

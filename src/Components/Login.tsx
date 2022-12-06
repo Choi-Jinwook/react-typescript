@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../css/Login.css";
 
 export const Login = () => {
@@ -14,7 +15,9 @@ export const Login = () => {
             placeholder="Password"
           ></input>
         </div>
-        <button className="signupBtn">회원가입</button>
+        <Link to="/signup">
+          <button className="signupBtn">회원가입</button>
+        </Link>
         <button className="loginBtn">로그인</button>
       </div>
     </>

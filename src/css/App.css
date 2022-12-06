@@ -37,12 +37,20 @@
   height: 140px;
 }
 
-.blank {
-  background: white;
+.logo {
+  background-color: white;
+  background-image: url("../images/skku_s.png");
+  background-size: cover;
   height: 140px;
+  width: 140px;
 }
 
 .gap-box {
   background: #f2f4f7;
   height: 10px;
+}
+
+.blank {
+  background-color: white;
+  height: 140px;
 }
