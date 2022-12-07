@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/react-typescript/static/css/main.e128d405.css",
-    "main.js": "/react-typescript/static/js/main.766c09fb.js",
+    "main.css": "/react-typescript/static/css/main.4e5e602b.css",
+    "main.js": "/react-typescript/static/js/main.f4ccd45e.js",
     "static/js/787.2be51e95.chunk.js": "/react-typescript/static/js/787.2be51e95.chunk.js",
+    "static/media/skku_s.png": "/react-typescript/static/media/skku_s.6c388f0155b9d33ef270.png",
     "static/media/football.png": "/react-typescript/static/media/football.27261734797ec8bca5bb.png",
     "static/media/esports.png": "/react-typescript/static/media/esports.420259fcf82d59bef03d.png",
     "static/media/profile.png": "/react-typescript/static/media/profile.33e7df0963941edbeb70.png",
     "index.html": "/react-typescript/index.html",
-    "main.e128d405.css.map": "/react-typescript/static/css/main.e128d405.css.map",
-    "main.766c09fb.js.map": "/react-typescript/static/js/main.766c09fb.js.map",
+    "main.4e5e602b.css.map": "/react-typescript/static/css/main.4e5e602b.css.map",
+    "main.f4ccd45e.js.map": "/react-typescript/static/js/main.f4ccd45e.js.map",
     "787.2be51e95.chunk.js.map": "/react-typescript/static/js/787.2be51e95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e128d405.css",
-    "static/js/main.766c09fb.js"
+    "static/css/main.4e5e602b.css",
+    "static/js/main.f4ccd45e.js"
   ]
 }
