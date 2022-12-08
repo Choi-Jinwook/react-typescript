@@ -3,15 +3,27 @@
 }
 
 .signupBtn {
+  background-color: rgb(252, 252, 252);
   position: relative;
   top: -11%;
   left: 15%;
+  color: black;
+  border-color: gray;
+  border-radius: 6px;
+  min-width: 60px;
+  min-height: 30px;
 }
 
 .loginBtn {
+  background-color: rgb(252, 252, 252);
   position: relative;
   top: -11%;
-  left: 21%;
+  left: 19%;
+  color: black;
+  border-color: gray;
+  border-radius: 6px;
+  min-width: 60px;
+  min-height: 30px;
 }
 
 .loginInfo {
