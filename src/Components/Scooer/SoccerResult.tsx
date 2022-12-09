@@ -1,5 +1,5 @@
 import data from "../../data/matches.json";
-import "../../css/SoccerNews.css";
+import "../../css/SoccerResult.css";
 
 interface result {
   roundSeq: number;

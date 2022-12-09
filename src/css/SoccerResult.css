@@ -1,7 +1,9 @@
 .homeResult {
   font-size: 20px;
+  float: left;
 }
 
 .awayResult {
   font-size: 20px;
+  float: right;
 }
