@@ -1,7 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./css/App.css";
 import data from "./data/matches.json";
 import { MainPage } from "./Components/MainPage";
+import { Route, Routes } from "react-router-dom";
+import { SoccerPage } from "./Components/Scooer/SoccerPage";
+
 function App() {
   useEffect(() => {
     // (async () => {
@@ -15,7 +18,10 @@ function App() {
 
   return (
     <div className="App">
-      <MainPage></MainPage>
+      <Routes>
+        <Route path="/" element={<MainPage></MainPage>}></Route>
+        <Route path="/soccer" element={<SoccerPage></SoccerPage>}></Route>
+      </Routes>
     </div>
   );
 }
