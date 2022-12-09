@@ -19,9 +19,9 @@ export const MainBoard = () => {
           <MakeBoard></MakeBoard>
         </tbody>
       </table>
-      <Link to="makepost">
-        <button className="makePostBtn">글 작성</button>
-      </Link>
+      <button className="makePostBtn">
+        <Link to="/makepost">글 작성</Link>
+      </button>
     </div>
   );
 };
